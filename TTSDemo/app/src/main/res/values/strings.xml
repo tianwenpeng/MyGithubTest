@@ -1,0 +1,468 @@
+<resources>
+    <string name="app_name">TTS Demo</string>
+
+    <string name="ifly_tts">科大讯飞 TTS</string>
+    <string name="unisound_tts">云知声 TTS</string>
+    <string name="aispeech_tts">思必驰 TTS</string>
+    <string name="voicerss_tts">多国语言 TTS</string>
+
+    <string name="ifly_input">科大讯飞语音合成服务提供29种发言人角色，包括普通话、方言和外语。点击发音人可选择不同的发音人角色，设置里可以对语速、音调和音量进行设置，开始合成可以试听合成语音。</string>
+    <string name="aispeech_input">思必驰语音合成服务提供15种发言人角色。点击发音人可选择不同的发音人角色，设置里可以对语速、音量进行设置，开始合成可以试听合成语音。</string>
+    <string name="voicerss_input">Voice RSS可以提供多语种语音合成服务，支持26种语言。点击语言可以选择不同的语言，设置里可以对语速、语音编解码格式、语音格式进行设置，开始合成可以试听合成语音。</string>
+    <string name="unisound_input">云知声语音合成服务提供3种发言人角色。点击发音人可选择不同的发音人角色，设置里可以对语速、音调和音量进行设置，开始合成可以试听合成语音。</string>
+    <!--<string name="voicerss_input">Voice RSS可以提供多语种语音合成服务，支持26种语言。</string>-->
+
+
+    <string name="language">语言</string>
+    <string name="input_hint">请输入你要合成的文字内容</string>
+    <!--<string name="voicerss_input">你好</string>-->
+    <string name="input_hint_en">English</string>
+    <string name="voicer">发音人</string>
+    <string name="setting">设置</string>
+    <string name="start">开始合成</string>
+    <string name="cancel">取消</string>
+
+    <!--Voice RSS-->
+    <string-array name="voice_rss_languages">
+        <item>Hola, agradable per conèixer-te.</item>
+        <item>你好，很高兴认识你。</item>
+        <item>你好，很高兴认识你。</item>
+        <item>你好，很高兴认识你。</item>
+        <item>Hej, rart at møde dig.</item>
+        <item>Hallo, leuk je te ontmoeten.</item>
+        <item>Hello, nice to meet you.</item>
+        <item>Hello, nice to meet you.</item>
+        <item>Hello, nice to meet you.</item>
+        <item>Hello, nice to meet you.</item>
+        <item>Hello, nice to meet you.</item>
+        <item>Hei, kiva tavata.</item>
+        <item>Bonjour, ravi de vous rencontrer.</item>
+        <item>Bonjour, ravi de vous rencontrer.</item>
+        <item>Hallo, schön dich zu treffen.</item>
+        <item>Ciao, piacere di conoscerti.</item>
+        <item>こんにちは、お会いできてうれしいです。</item>
+        <item>안녕, 만나서 반갑습니다.</item>
+        <item>Hei, hyggelig å møte deg.</item>
+        <item>Witaj, miło cię poznać.</item>
+        <item>Olá, prazer em conhecê-lo.</item>
+        <item>Olá, prazer em conhecê-lo.</item>
+        <item>Привет, рад познакомиться.</item>
+        <item>Hola, un placer conocerte.</item>
+        <item>Hola, un placer conocerte.</item>
+        <item>Hola, un placer conocerte.</item>
+    </string-array>
+    <string-array name="voice_rss_language_entries">
+        <item>Catalan</item>
+        <item>Chinese (China)</item>
+        <item>Chinese (Hong Kong)</item>
+        <item>Chinese (Taiwan)</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English (Australia)</item>
+        <item>English (Canada)</item>
+        <item>English (Great Britain)</item>
+        <item>English (India)</item>
+        <item>English (United States)</item>
+        <item>Finnish</item>
+        <item>French (Canada)</item>
+        <item>French (France)</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Portuguese (Portugal)</item>
+        <item>Russian</item>
+        <item>Spanish (Mexico)</item>
+        <item>Spanish (Spain)</item>
+        <item>Swedish (Sweden)</item>
+    </string-array>
+    <string-array name="voice_rss_language_values">
+        <item>ca-es</item>
+        <item>zh-cn</item>
+        <item>zh-hk</item>
+        <item>zh-tw</item>
+        <item>da-dk</item>
+        <item>nl-nl</item>
+        <item>en-au</item>
+        <item>en-ca</item>
+        <item>en-gb</item>
+        <item>en-in</item>
+        <item>en-us</item>
+        <item>fi-fi</item>
+        <item>fr-ca</item>
+        <item>fr-fr</item>
+        <item>de-de</item>
+        <item>it-it</item>
+        <item>ja-jp</item>
+        <item>ko-kr</item>
+        <item>nb-no</item>
+        <item>pl-pl</item>
+        <item>pt-br</item>
+        <item>pt-pt</item>
+        <item>ru-ru</item>
+        <item>es-mx</item>
+        <item>es-es</item>
+        <item>sv-se</item>
+    </string-array>
+
+    <string-array name="voice_rss_speed_entries">
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="voice_rss_speed_values">
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="voice_rss_audio_codec_entries">
+        <item>MP3</item>
+        <item>WAV</item>
+        <item>AAC</item>
+        <item>OGG</item>
+        <item>CAF</item>
+    </string-array>
+    <string-array name="voice_rss_audio_codec_values">
+        <item>MP3</item>
+        <item>WAV</item>
+        <item>AAC</item>
+        <item>OGG</item>
+        <item>CAF</item>
+    </string-array>
+
+    <string-array name="voice_rss_audio_format_entries">
+        <item>8 kHz, 8 Bit, Mono</item>
+        <item>8 kHz, 8 Bit, Stereo</item>
+        <item>8 kHz, 16 Bit, Mono</item>
+        <item>8 kHz, 16 Bit, Stereo</item>
+        <item>11 kHz, 8 Bit, Mono</item>
+        <item>11 kHz, 8 Bit, Stereo</item>
+        <item>11 kHz, 16 Bit, Mono</item>
+        <item>11 kHz, 16 Bit, Stereo</item>
+        <item>12 kHz, 8 Bit, Mono</item>
+        <item>12 kHz, 8 Bit, Stereo</item>
+        <item>12 kHz, 16 Bit, Mono</item>
+        <item>12 kHz, 16 Bit, Stereo</item>
+        <item>16 kHz, 8 Bit, Mono</item>
+        <item>16 kHz, 8 Bit, Stereo</item>
+        <item>16 kHz, 16 Bit, Mono</item>
+        <item>16 kHz, 16 Bit, Stereo</item>
+        <item>22 kHz, 8 Bit, Mono</item>
+        <item>22 kHz, 8 Bit, Stereo</item>
+        <item>22 kHz, 16 Bit, Mono</item>
+        <item>22 kHz, 16 Bit, Stereo</item>
+        <item>24 kHz, 8 Bit, Mono</item>
+        <item>24 kHz, 8 Bit, Stereo</item>
+        <item>24 kHz, 16 Bit, Mono</item>
+        <item>24 kHz, 16 Bit, Stereo</item>
+        <item>32 kHz, 8 Bit, Mono</item>
+        <item>32 kHz, 8 Bit, Stereo</item>
+        <item>32 kHz, 16 Bit, Mono</item>
+        <item>32 kHz, 16 Bit, Stereo</item>
+        <item>44 kHz, 8 Bit, Mono</item>
+        <item>44 kHz, 8 Bit, Stereo</item>
+        <item>44 kHz, 16 Bit, Mono</item>
+        <item>44 kHz, 16 Bit, Stereo</item>
+        <item>48 kHz, 8 Bit, Mono</item>
+        <item>48 kHz, 8 Bit, Stereo</item>
+        <item>48 kHz, 16 Bit, Mono</item>
+        <item>48 kHz, 16 Bit, Stereo</item>
+        <item>ALaw, 8 kHz, Mono</item>
+        <item>ALaw, 8 kHz, Stereo</item>
+        <item>ALaw, 11 kHz, Mono</item>
+        <item>ALaw, 11 kHz, Stereo</item>
+        <item>ALaw, 22 kHz, Mono</item>
+        <item>ALaw, 22 kHz, Stereo</item>
+        <item>ALaw, 44 kHz, Mono</item>
+        <item>ALaw, 44 kHz, Stereo</item>
+        <item>uLaw, 8 kHz, Mono</item>
+        <item>uLaw, 8 kHz, Stereo</item>
+        <item>uLaw, 11 kHz, Mono</item>
+        <item>uLaw, 11 kHz, Stereo</item>
+        <item>uLaw, 22 kHz, Mono</item>
+        <item>uLaw, 22 kHz, Stereo</item>
+        <item>uLaw, 44 kHz, Mono</item>
+        <item>uLaw, 44 kHz, Stereo</item>
+    </string-array>
+    <string-array name="voice_rss_audio_format_values">
+        <item>8khz_8bit_mono</item>
+        <item>8khz_8bit_stereo</item>
+        <item>8khz_16bit_mono</item>
+        <item>8khz_16bit_stereo</item>
+        <item>11khz_8bit_mono</item>
+        <item>11khz_8bit_stereo</item>
+        <item>11khz_16bit_mono</item>
+        <item>11khz_16bit_stereo</item>
+        <item>12khz_8bit_mono</item>
+        <item>12khz_8bit_stereo</item>
+        <item>12khz_16bit_mono</item>
+        <item>12khz_16bit_stereo</item>
+        <item>16khz_8bit_mono</item>
+        <item>16khz_8bit_stereo</item>
+        <item>16khz_16bit_mono</item>
+        <item>16khz_16bit_stereo</item>
+        <item>22khz_8bit_mono</item>
+        <item>22khz_8bit_stereo</item>
+        <item>22khz_16bit_mono</item>
+        <item>22khz_16bit_stereo</item>
+        <item>24khz_8bit_mono</item>
+        <item>24khz_8bit_stereo</item>
+        <item>24khz_16bit_mono</item>
+        <item>24khz_16bit_stereo</item>
+        <item>32khz_8bit_mono</item>
+        <item>32khz_8bit_stereo</item>
+        <item>32khz_16bit_mono</item>
+        <item>32khz_16bit_stereo</item>
+        <item>44khz_8bit_mono</item>
+        <item>44khz_8bit_stereo</item>
+        <item>44khz_16bit_mono</item>
+        <item>44khz_16bit_stereo</item>
+        <item>48khz_8bit_mono</item>
+        <item>48khz_8bit_stereo</item>
+        <item>48khz_16bit_mono</item>
+        <item>48khz_16bit_stereo</item>
+        <item>alaw_8khz_mono</item>
+        <item>alaw_8khz_stereo</item>
+        <item>alaw_11khz_mono</item>
+        <item>alaw_11khz_stereo</item>
+        <item>alaw_22khz_mono</item>
+        <item>alaw_22khz_stereo</item>
+        <item>alaw_44khz_mono</item>
+        <item>alaw_44khz_stereo</item>
+        <item>ulaw_8khz_mono</item>
+        <item>ulaw_8khz_stereo</item>
+        <item>ulaw_11khz_mono</item>
+        <item>ulaw_11khz_stereo</item>
+        <item>ulaw_22khz_mono</item>
+        <item>ulaw_22khz_stereo</item>
+        <item>ulaw_44khz_mono</item>
+        <item>ulaw_44khz_stereo</item>
+    </string-array>
+
+    <!--思必驰-->
+    <string-array name="aispeech_voicer_cloud_entries">
+        <item>林志玲—女青、中英、普通话</item>
+        <item>小珍—女童、中、普通话</item>
+        <item>多拉爱梦—女青、中英、普通话</item>
+        <item>郭德纲—男青、中、普通话</item>
+        <item>葛优—男青、中、普通话</item>
+        <item>葛倩—女青、中、普通话</item>
+        <item>乐乐—女童、中、普通话</item>
+        <item>小燕—女青、中、普通话</item>
+        <item>Lucy—女青、中英、普通话</item>
+        <item>小颖—女青、中、普通话</item>
+        <item>小倩—女童、中、普通话</item>
+        <item>孙悟空—男青、中、普通话</item>
+        <item>小军—男青、中英、普通话</item>
+        <item>周星驰—男青、中、普通话</item>
+        <item>赵忠祥—男中、中、普通话</item>
+    </string-array>
+    <string-array name="aispeech_voicer_cloud_values">
+        <item>zhilingf</item>
+        <item>anonyg</item>
+        <item>dlaf</item>
+        <item>gdgm</item>
+        <item>geyou</item>
+        <item>gqlanf</item>
+        <item>hbrinf</item>
+        <item>hyanif</item>
+        <item>lucyf</item>
+        <item>lzyinf</item>
+        <item>qianranf</item>
+        <item>swkm</item>
+        <item>xijunm</item>
+        <item>zxcm</item>
+        <item>zzxiangm</item>
+    </string-array>
+
+    <!--云知声-->
+    <string-array name="unisound_voicer_cloud_entries">
+        <item>小丽—女青</item>
+        <item>小莉姐—女青</item>
+        <item>糖糖—女童</item>
+    </string-array>
+    <string-array name="unisound_voicer_cloud_values">
+        <item>xiaoli</item>
+        <item>xiaolijie</item>
+        <item>tangtang</item>
+    </string-array>
+
+    <!--科大讯飞-->
+    <string name="app_id">5ac1f4e2</string>
+    <string-array name="voicer_cloud_entries">
+        <item>小燕—女青、中英、普通话</item>
+        <item>小宇—男青、中英、普通话</item>
+        <item>小研—女青、中英、普通话</item>
+        <item>小琪—女青、中英、普通话</item>
+        <item>小峰—男青、中英、普通话</item>
+        <item>小梅—女青、中英、粤语</item>
+        <item>小莉—女青、中英、台湾普通话</item>
+        <item>晓琳—女青、中英、台湾普通话</item>
+        <item>凯瑟琳—女青、英</item>
+        <item>亨利—男青、英</item>
+        <item>玛丽—女青、英</item>
+        <item>小蓉—女青、中、四川话</item>
+        <item>小芸—女青、中、东北话</item>
+        <item>小倩—女青、中、东北话</item>
+        <item>小坤—男青、中、河南话</item>
+        <item>小强—男青、中、湖南话</item>
+        <item>小莹—女青、中、陕西话</item>
+        <item>小新—男童、中、普通话</item>
+        <item>楠楠—女童、中、普通话</item>
+        <item>老孙—男老、中、普通话</item>
+        <item>Mariane、法</item>
+        <item>Allabent、俄</item>
+        <item>Gabriela、西班牙</item>
+        <item>Abha、印地</item>
+        <item>XiaoYun、越南</item>
+        <item>小萍—女青、中英、普通话</item>
+        <item>小婧—女青、中英、普通话</item>
+        <item>许久—男青、中英、普通话</item>
+        <item>许小宝—男童、中英、普通话</item>
+    </string-array>
+    <string-array name="voicer_cloud_values">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>xiaoqi</item>
+        <item>vixf</item>
+        <item>xiaomei</item>
+        <item>vixl</item>
+        <item>xiaolin</item>
+        <item>catherine</item>
+        <item>henry</item>
+        <item>vimary</item>
+        <item>xiaorong</item>
+        <item>vixyun</item>
+        <item>xiaoqian</item>
+        <item>xiaokun</item>
+        <item>xiaoqiang</item>
+        <item>vixying</item>
+        <item>xiaoxin</item>
+        <item>nannan</item>
+        <item>vils</item>
+        <item>Mariane</item>
+        <item>Allabent</item>
+        <item>Gabriela</item>
+        <item>Abha</item>
+        <item>XiaoYun</item>
+        <item>aisxping</item>
+        <item>aisjinger</item>
+        <item>aisjiuxu</item>
+        <item>aisbabyxu</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

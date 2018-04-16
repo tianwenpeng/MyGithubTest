@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/voice_rss_speed_entries"
+        android:entryValues="@array/voice_rss_speed_values"
+        android:key="speed_preference"
+        android:title="语速" />
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/voice_rss_audio_codec_entries"
+        android:entryValues="@array/voice_rss_audio_codec_values"
+        android:key="codec_preference"
+        android:title="音频编解码格式" />
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/voice_rss_audio_format_entries"
+        android:entryValues="@array/voice_rss_audio_format_values"
+        android:key="format_preference"
+        android:title="音频格式" />
+
+</PreferenceScreen>

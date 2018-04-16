@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.speech.tts.ttsdemo.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ifly_tts_bt"
+        android:minWidth="150dp"
+        android:text="@string/ifly_tts"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_button_background"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sbitch_tts_bt"
+        android:layout_marginTop="15dp"
+        android:minWidth="150dp"
+        android:text="@string/aispeech_tts"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_button_background"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/voicerss_tts_bt"
+        android:layout_marginTop="15dp"
+        android:minWidth="150dp"
+        android:text="@string/voicerss_tts"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_button_background"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/csound_tts_bt"
+        android:layout_marginTop="15dp"
+        android:minWidth="150dp"
+        android:text="@string/unisound_tts"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/round_button_background"/>
+</LinearLayout>
