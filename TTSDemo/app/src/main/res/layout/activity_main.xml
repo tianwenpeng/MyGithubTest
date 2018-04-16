@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/sbitch_tts_bt"
         android:layout_marginTop="15dp"
-        android:minWidth="150dp"
+        android:minWidth="200dp"
         android:text="@string/aispeech_tts"
         android:textSize="18sp"
         android:textColor="#fff"
